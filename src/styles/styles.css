@@ -13,12 +13,12 @@ textarea {
     box-shadow: 0px;
     outline: none;
     margin-top: 30px;
+    padding-right: 20px;
 }
 
 textarea:focus, textarea:hover {
     border: none;
     box-shadow: 0px;
-    padding-right: 20px;
 }
 
 svg {
@@ -70,4 +70,12 @@ svg {
 
 .title-container>a {
     cursor: pointer;
+}
+
+#TimesArmeniacopy > div > a > img {
+    margin-right: 5px;
+}
+
+#TimesArmeniacopy > textarea {
+    padding: 0;
 }

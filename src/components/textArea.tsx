@@ -7,7 +7,7 @@ type textAreaProps = {
 export default function TextArea({title, value, onChange}: textAreaProps) {
 
 
-    return (<div>
+    return (<div id={title.replace(" ", "") + "copy"}>
             <div className="title-container">
                 <h3 className="title">{title}</h3>
                 <a onClick={() => navigator.clipboard.writeText(value)}>
