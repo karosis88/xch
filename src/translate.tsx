@@ -11,7 +11,7 @@ export default function translate(input: string, to_unicode: boolean) :string {
     }
     else {
         for (let character of input) {
-            output += mappings.unicode_to_armascii8[character] || character
+            output += mappings.unicode_to_armscii8[character] || character
         }
     }
     return output
