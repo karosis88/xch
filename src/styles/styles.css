@@ -48,15 +48,6 @@ svg {
     justify-content: space-between;
 }
 
-.special-for-khachik {
-    position: absolute;
-    font-size: 14px;
-    font-family: sans-serif;
-    left: 50%;
-    top: -10%;
-    transform: translateX(-50%);
-}
-
 .app {
     position: absolute;
     left: 50%;
